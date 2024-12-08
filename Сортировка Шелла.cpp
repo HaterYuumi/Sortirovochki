@@ -69,23 +69,6 @@ class Array{
     }
     
     void Shell_sort(){
-        // for(int step = n / 2; step > 0; step /= 2){
-        //     cout << "h = " << step << endl;
-        //     for(int i = step; i < n; i+=step){
-        //         int tmp = a[i];
-        //         cout << "buff = " << tmp << endl;
-        //         int j;
-                
-        //         for(j = i; j >= step && a[j - step] > tmp; j -= step){
-        //             cout << "Сравниваются: a[" << i << "] = " << 
-        //                 tmp << " и buff[" << j - step << "] = "<< a[j - step] << endl;
-        //             a[j] = a[j - step];
-        //         }
-        //         a[j] = tmp;
-        //         cout << "После замены" << endl;
-        //         cout << *this << endl;
-        //     }
-        // }
         for (int step = n / 2; step > 0; step /= 2) {
             cout << "h = " << step << endl;
             cout << "---------------------" << endl;
